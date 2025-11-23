@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Place | Уютная кофейня</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Caveat:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Шапка -->
+    <header class="header">
+        <div class="container">
+            <a href="#home" class="logo">Coffee Place</a>
+            <nav class="nav">
+                <button class="nav-toggle" aria-label="Открыть меню">☰</button>
+                <ul class="nav-menu">
+                    <li><a href="#about" class="nav-link">О нас</a></li>
+                    <li><a href="#process" class="nav-link">Как готовим</a></li>
+                    <li><a href="#menu" class="nav-link">Меню</a></li>
+                    <li><a href="#gallery" class="nav-link">Галерея</a></li>
+                    <li><a href="#contacts" class="nav-link">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Главная секция -->
+        <section id="home" class="hero">
+            <div class="container">
+                <h1 class="hero-title">Кофе, который обнимает душу</h1>
+                <p class="hero-subtitle">Отборные зерна, ручная обжарка и атмосфера уюта</p>
+                <button id="cta-button" class="btn btn-primary">Посмотреть меню</button>
+            </div>
+        </section>
+
+        <!-- О нас -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">Почему наш кофе — особенный?</h2>
+                <div class="about-content">
+                    <p class="about-text">Мы сами обжариваем зерна из Эфиопии, Колумбии и Бразилии, чтобы добиться идеального баланса во вкусе. Наш бариста не просто готовит кофе, а создает маленькое произведение искусства в каждой чашке.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Процесс приготовления -->
+        <section id="process" class="process">
+            <div class="container">
+                <h2 class="section-title">Как мы готовим кофе</h2>
+                <div class="process-steps">
+                    <div class="process-step">
+                        <div class="step-image">
+                            <img src=images/coffee.jpg alt="Отбор зерен">
+                        </div>
+                        <div class="step-content">
+                            <div class="step-number">01</div>
+                            <h3 class="step-title">Отбор зерен</h3>
+                            <p class="step-text">Мы тщательно отбираем только лучшие зерна арабики из Эфиопии, Колумбии и Бразилии. Каждая партия проходит строгий контроль качества.</p>
+                        </div>
+                    </div>
+
+                    <div class="process-step">
+                        <div class="step-image">
+                            <img src=images/obzh.jpeg alt="Обжарка">
+                        </div>
+                        <div class="step-content">
+                            <div class="step-number">02</div>
+                            <h3 class="step-title">Ручная обжарка</h3>
+                            <p class="step-text">Наш мастер обжарщик контролирует каждый этап процесса, чтобы раскрыть уникальные вкусовые характеристики каждого сорта кофе.</p>
+                        </div>
+                    </div>
+
+                    <div class="process-step">
+                        <div class="step-image">
+                            <img src=images/pomol.png alt="Помол">
+                        </div>
+                        <div class="step-content">
+                            <div class="step-number">03</div>
+                            <h3 class="step-title">Свежий помол</h3>
+                            <p class="step-text">Перед каждой приготовлением мы мелем зерна, чтобы сохранить все ароматические масла и обеспечить максимально насыщенный вкус.</p>
+                        </div>
+                    </div>
+
+                              </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Меню -->
+        <section id="menu" class="menu">
+            <div class="container">
+                <h2 class="section-title">Наше меню</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src=images/espresso.webp alt="Эспрессо">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3 class="menu-item-title">Эспрессо</h3>
+                            <p class="menu-item-description">Классический крепкий эспрессо из 100% арабики с насыщенным вкусом</p>
+                            <span class="price">180 ₽</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src=images/2espresso.webp alt="Двойной эспрессо">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3 class="menu-item-title">Двойной эспрессо</h3>
+                            <p class="menu-item-description">Двойная порция эспрессо для настоящих ценителей крепкого кофе</p>
+                            <span class="price">250 ₽</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src= images/americano.webp alt="Американо">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3 class="menu-item-title">Американо</h3>
+                            <p class="menu-item-description">Эспрессо с добавлением горячей воды для менее насыщенного вкуса</p>
+                            <span class="price">200 ₽</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src=images/capucino.webp alt="Капучино">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3 class="menu-item-title">Капучино</h3>
+                            <p class="menu-item-description">Идеальный баланс эспрессо, молока и воздушной молочной пенки</p>
+                            <span class="price">280 ₽</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src=images/latte.webp alt="Латте">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3 class="menu-item-title">Латте</h3>
+                            <p class="menu-item-description">Нежный кофейный напиток с большим количеством молока и пенкой</p>
+                            <span class="price">300 ₽</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src=images/flat.webp alt="Флэт Уайт">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3 class="menu-item-title">Флэт Уайт</h3>
+                            <p class="menu-item-description">Двойной ристретто с микропенкой для насыщенного сливочного вкуса</p>
+                            <span class="price">320 ₽</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src=images/raf.webp alt="Раф кофе">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3 class="menu-item-title">Раф кофе</h3>
+                            <p class="menu-item-description">Сливочный напиток на основе эспрессо, сливок и ванильного сахара</p>
+                            <span class="price">350 ₽</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src=images/mocca.webp alt="Моккачино">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3 class="menu-item-title">Моккачино</h3>
+                            <p class="menu-item-description">Шоколадный латте с какао, украшенный взбитыми сливками</p>
+                            <span class="price">380 ₽</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src=images/caramel.webp alt="Карамельный макиато">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3 class="menu-item-title">Карамельный макиато</h3>
+                            <p class="menu-item-description">Эспрессо с молоком, ванильным сиропом и карамельной topping</p>
+                            <span class="price">370 ₽</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src=images/cocos.webp alt="Кокосовый латте">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3 class="menu-item-title">Кокосовый латте</h3>
+                            <p class="menu-item-description">Латте с кокосовым сиропом и кокосовой стружкой</p>
+                            <span class="price">340 ₽</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src=images/matcha.webp alt="Матча латте">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3 class="menu-item-title">Матча латте</h3>
+                            <p class="menu-item-description">Традиционный японский чай матча с молоком и пенкой</p>
+                            <span class="price">360 ₽</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src=images/icelatte.webp alt="Айс латте">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3 class="menu-item-title">Айс латте</h3>
+                            <p class="menu-item-description">Освежающий холодный латте со льдом и выбором сиропов</p>
+                            <span class="price">320 ₽</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Галерея -->
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <h2 class="section-title">Наша атмосфера</h2>
+                <div class="gallery-grid">
+                    <img src=images/1.webp alt="Интерьер кофейни">
+                    <img src= images/6.jpg alt="Приготовление кофе">
+                    <img src=images/3.jpg alt="Кофе и десерты">
+                    <img src=images/5.jpeg alt="Рабочее место бариста">
+                    <img src=images/4.webp alt="Уютный уголок">
+                    <img src=images/2.webp alt="Кофейные зерна">
+                </div>
+            </div>
+        </section>
+
+        <!-- Контакты -->
+        <section id="contacts" class="contacts">
+            <div class="container">
+                <h2 class="section-title">Контакты</h2>
+                <div class="contacts-content">
+                    <div class="contact-info">
+                        <h3>Приходите в гости</h3>
+                        <p>📍 г. Москва, ул. Кофейная, 15</p>
+                        <p>🕒 Ежедневно с 8:00 до 22:00</p>
+                        <p>📞 +7 (999) 123-45-67</p>
+                        <p>✉️ hello@coffeeplace.ru</p>
+                    </div>
+
+                    <form class="contact-form" id="contact-form">
+                        <h3>Остались вопросы?</h3>
+                        <input type="text" name="name" placeholder="Ваше имя" required>
+                        <input type="email" name="email" placeholder="Ваш email" required>
+                        <textarea name="message" placeholder="Ваше сообщение" rows="4" required></textarea>
+                        <button type="submit" class="btn btn-primary">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Coffee Place. Все права защищены.</p>
+            <p>г. Москва, ул. Кофейная, 15 | +7 (999) 123-45-67</p>
+        </div>
+    </footer>
+
+    <!-- Модальное окно с акцией -->
+    <div id="promo-modal" class="modal promo-modal">
+        <div class="modal-content promo-content">
+            <span class="close-button">&times;</span>
+
+            <div class="promo-header">
+                <div class="promo-badge">АКЦИЯ</div>
+                <h2 class="promo-title">Добро пожаловать в Coffee Place!</h2>
+            </div>
+
+            <div class="promo-body">
+                <div class="promo-icon">🎉</div>
+                <p class="promo-text">Мы рады видеть вас в нашей кофейне! В честь первого визита дарим вам специальные привилегии:</p>
+
+                <div class="promo-features">
+                    <div class="promo-feature">
+                        <span class="feature-icon">☕</span>
+                        <div class="feature-content">
+                            <h3>Скидка 20% на первый заказ</h3>
+                            <p>Действует на все виды кофе и десерты</p>
+                        </div>
+                    </div>
+
+                    <div class="promo-feature">
+                        <span class="feature-icon">🎁</span>
+                        <div class="feature-content">
+                            <h3>Бесплатный десерт</h3>
+                            <p>К любому заказу от 500 рублей</p>
+                        </div>
+                    </div>
+
+                    <div class="promo-feature">
+                        <span class="feature-icon">⭐</span>
+                        <div class="feature-content">
+                            <h3>Накопительная карта</h3>
+                            <p>Получите карту гостя после первого визита</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="promo-code">
+                    <div class="code-label">Ваш промокод:</div>
+                    <div class="code-value">WELCOME20</div>
+                    <div class="code-hint">Назовите этот код бариста при заказе</div>
+                </div>
+            </div>
+
+            <div class="promo-footer">
+                <button class="btn btn-primary promo-btn" id="promo-close-btn">Понятно, спасибо!</button>
+                <p class="promo-note">Акция действительна в течение 7 дней с момента получения</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
